@@ -31,9 +31,9 @@ void findWaitingTimeRR(ProcessType plist[], int n,int quantum)
   int x, t = 0;
   
   // storing the wwait times in plist
-  for (x = 0; i < n; x++){
+  for (x = 0; x < n; x++){
     rem_bt[x] = plist[x].bt;
-    plist[i].wt = 0;
+    plist[x].wt = 0;
   }
   
   // traverse all processes
